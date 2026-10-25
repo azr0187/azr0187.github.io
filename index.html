@@ -117,7 +117,7 @@
                             <span class="px-2.5 py-1 rounded text-[10px] font-bold bg-emerald-100 text-emerald-700 uppercase tracking-wide">Published</span>
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 leading-snug mb-2">
-                            <a href="https://openaccess.thecvf.com/content/WACV2026/html/Trehan_FSP-DETR_FewShot_Prototypical_Parasitic_Ova_Detection_WACV_2026_paper.html" class="hover:text-sky-600 transition-colors">
+                            <a href="https://openaccess.thecvf.com/content/WACV2026/papers/Trehan_FSP-DETR_Few-Shot_Prototypical_Parasitic_Ova_Detection_WACV_2026_paper.pdf" class="hover:text-sky-600 transition-colors">
                                 FSP-DETR: Few-shot Prototypical Parasitic Ova Detection
                             </a>
                         </h3>
@@ -128,7 +128,7 @@
                             Built FSP-DETR, a single object detection model that handles few-shot detection of known parasites, open-set recognition of unfamiliar ones, and zero-shot generalization to entirely new parasite types. Outperformed eight competing object detection systems and curated a publicly released benchmark of 3,001 annotated images across 20 parasite species.
                         </p>
                         <div class="flex gap-4">
-                            <a href="https://openaccess.thecvf.com/content/WACV2026/html/Trehan_FSP-DETR_FewShot_Prototypical_Parasitic_Ova_Detection_WACV_2026_paper.html" class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 hover:text-sky-600 hover:border-sky-200 transition-all shadow-sm">
+                            <a href="https://openaccess.thecvf.com/content/WACV2026/papers/Trehan_FSP-DETR_Few-Shot_Prototypical_Parasitic_Ova_Detection_WACV_2026_paper.pdf" class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 hover:text-sky-600 hover:border-sky-200 transition-all shadow-sm">
                                 <i class="fa-regular fa-file-pdf text-red-500"></i> Read Paper
                             </a>
                         </div>
@@ -140,7 +140,10 @@
                             <span class="px-2.5 py-1 rounded text-[10px] font-bold bg-emerald-100 text-emerald-700 uppercase tracking-wide">Accepted</span>
                         </div>
                         <h3 class="text-xl font-bold text-slate-900 leading-snug mb-2">
-                            HyperTaxa: Multiscale Genome Representations for Generalized Microbial Taxonomic Inference
+                            <a href="https://arxiv.org/abs/2610.25673" class="hover:text-sky-600 transition-colors">
+                                HyperTaxa: Multiscale Genome Representations for Generalized Microbial Taxonomic Inference
+                            </a>
+                            
                         </h3>
                         <p class="text-sm text-slate-500 mb-4 font-medium">
                             Akash Rao, Sushim Gupta, Vishalini Ramnath, Akhilesh Ramachandran, S.N. Aakur (First Author)
@@ -149,9 +152,12 @@
                             Tackles the identification of rare or unstudied microbial species by learning genome representations that can place a bacterial species into the tree of life even with no training examples. Encoded genomes as multiscale hyperspectral k-mer transition fields, significantly outperforming prior pseudo-image and transformer-graph baselines for zero-shot (ZSL) and generalized zero-shot (GZSL) inference.
                         </p>
                         <div class="flex gap-4">
-                            <span class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-400 cursor-not-allowed shadow-sm">
+                            <!-- <span href="https://arxiv.org/abs/2610.25673" class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-400 cursor-not-allowed shadow-sm">
                                 <i class="fa-solid fa-lock"></i> PDF Coming Soon
-                            </span>
+                            </span> -->
+                            <a href="https://arxiv.org/abs/2610.25673" class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-700 hover:text-sky-600 hover:border-sky-200 transition-all shadow-sm">
+                                <i class="fa-regular fa-file-pdf text-red-500"></i> Read Paper
+                            </a>
                         </div>
                     </div>
 
@@ -192,6 +198,24 @@
 
                     <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-all group flex flex-col h-full">
                         <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6 group-hover:scale-110 transition-transform">
+                            <!-- <i class="fa-solid fa-building-columns text-xl"></i> -->
+                             <i class="fa-solid fa-chart-line text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3">Auburn-Regions Data Hackathon</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Participated in a Regions Bank sponsored hackathon at Auburn University to predict each loan applicant's probability of default from simulated banking data (30,000 training applicants), combining applicant records with relational credit account and prior lending history. The model reached a validation ROC AUC of 0.77 (5-fold CV AUC 0.75) and drove a three-tier lending policy (auto-approve, review, decline) that approved 56% of applicants at a 5.2% default rate versus 12.6% overall, turning a simulated loss into a profit. Built a fully reproducible pipeline with fixed seeds, data integrity checks, SHAP-based explanations, and a fairness audit of approval rates across demographic groups, which were kept out of the model and decision rule.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-slate-100 text-slate-500 text-xs rounded border border-slate-200">Python</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-500 text-xs rounded border border-slate-200">scikit-learn</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-500 text-xs rounded border border-slate-200">pandas</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-500 text-xs rounded border border-slate-200">SHAP</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-500 text-xs rounded border border-slate-200">Credit Risk</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-all group flex flex-col h-full">
+                        <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6 group-hover:scale-110 transition-transform">
                             <i class="fa-solid fa-robot text-xl"></i>
                         </div> 
                         <h3 class="text-lg font-bold text-slate-900 mb-3">Automated Image Collection with Robotic Arm</h3>
@@ -219,7 +243,6 @@
                             <span class="px-2 py-1 bg-slate-100 text-slate-500 text-xs rounded border border-slate-200">DETR</span>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
